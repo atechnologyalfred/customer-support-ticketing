@@ -1,6 +1,7 @@
 
 - do this
-- git clone url
+- git clone git clone https://github.com/atechnologyalfred/customer-support-ticketing.git
+
 - cd customer-support-ticketing
 - git checkout develop
 - git pull origin develop
