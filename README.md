@@ -1,168 +1,54 @@
-Customer Support Ticketing System
 
-A full-stack customer support ticketing system that allows customers to create and track support tickets while support agents manage, assign, and resolve customer issues. Administrators can manage users, agents, tickets, and system operations.
+do this
+git clone url
+cd customer-support-ticketing
+git checkout develop
+git pull origin develop
 
-🚀 Features
+next create your feature brach( the feature you are working on)
+git checkout -b feat/login
 
-Customer
+then work on your feature and commit
 
-- Register and log in
-- Create support tickets
-- View personal tickets
-- View ticket details
-- Track ticket status
-- Send messages on tickets
-- Close tickets
+git add .
+git commit -m "feat: implement login"
 
-Support Agent
+please always add the feat for us to know it is a new feature implemented
 
-- Log in securely
-- View assigned tickets
-- Manage customer tickets
-- Update ticket status
-- Respond to customers
-- View ticket history
+then push your feature branch
+git push -u origin feat/login
 
-Administrator
 
-- Manage users
-- Manage support agents
-- View and manage tickets
-- Assign tickets to agents
-- Manage user roles
-- Monitor support activities
+go to your github you should see the feature you pushed
+then create a pull request (PR)
+the PR should be: 
+feat/login - develop
 
-🛠️ Tech Stack
 
-Backend
+- THIS README FILE WILL EDITED - LET US COMMUNICATE HERE FOR NOW
 
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- JWT Authentication
-- REST API
+- REGISTER ROUTE
+  firstName, lastName, dob, email, age, phone, password, status(active, pending, closed), role(customer, agent, admin), timestamps
 
-Frontend
 
-- React
-- JavaScript
-- CSS
 
-Development Tools
+  don't alter what you met. work only on your technology.... already pushed code is working
 
-- Git
-- GitHub
-- Postman
-- VS Code
+  if there is need to refactor teammate code, please drop it here or  inform the team in the whatsapp group
 
-📁 Project Structure
+  user npm run dev to run your code
 
-customer-support-ticketing/
-│
-├── backend/
-│   ├── src/
-│   │   ├── controllers/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   ├── middleware/
-│   │   ├── services/
-│   │   ├── utils/
-│   │   └── app.js
-│   │
-│   └── package.json
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── hooks/
-│   │   └── services/
-│   │
-│   └── package.json
-│
-└── README.md
+  use postman for now
 
-🔐 User Roles
+  make sure your code is running before pushing
 
-The system has three main roles:
+  push only to develop branch
 
-- Customer — creates and manages support tickets.
-- Agent — handles and resolves assigned tickets.
-- Admin — manages users, agents, tickets, and system operations.
 
-🔄 Git Workflow
 
-The project uses the following branch structure:
 
-main
-  ↑
-develop
-  ↑
-feature/*
 
-Main Branch
 
-"main" contains stable production-ready code.
 
-Develop Branch
+  
 
-"develop" is the integration branch where completed features are combined and tested before release.
-
-Feature Branches
-
-Each team member creates a separate feature branch from "develop".
-
-Examples:
-
-feature/auth
-feature/tickets
-feature/agents
-feature/admin
-feature/frontend
-
-Changes are submitted through Pull Requests and reviewed before being merged into "develop".
-
-📌 Development Workflow
-
-GitHub Issue
-     ↓
-Assign Developer
-     ↓
-Create Feature Branch
-     ↓
-Develop Feature
-     ↓
-Test
-     ↓
-Create Pull Request
-     ↓
-Code Review
-     ↓
-Merge into develop
-     ↓
-Final Testing
-     ↓
-Merge into main
-
-🔌 API
-
-The backend provides RESTful API endpoints for:
-
-- Authentication
-- Users
-- Customers
-- Agents
-- Tickets
-- Ticket messages
-- Administration
-
-API documentation will be added as the project develops.
-
-👥 Team
-
-This project is developed collaboratively using GitHub, feature branches, issues, and pull requests.
-
-📄 License
-
-This project is created for educational and portfolio purposes.
