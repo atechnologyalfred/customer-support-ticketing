@@ -1,0 +1,37 @@
+{
+  "name": "customer-support-ticketing",
+  "version": "1.0.0",
+  "description": "- do this\r - git clone url\r - cd customer-support-ticketing\r - git checkout develop\r - git pull origin develop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atechnologyalfred/customer-support-ticketing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/atechnologyalfred/customer-support-ticketing/issues"
+  },
+  "homepage": "https://github.com/atechnologyalfred/customer-support-ticketing#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^1.41.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.1",
+    "multer": "^2.4.0",
+    "multer-storage-cloudinary": "^4.0.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
